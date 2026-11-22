@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>External website test</title>
+    <style>
+      /* Deliberately aggressive styles. If the widget is isolated, none of
+         these will change how it looks. */
+      * { box-sizing: content-box !important; }
+      body { font-family: Georgia, serif; background: #fff7ed; color: #7c2d12; margin: 0; padding: 24px; line-height: 1.6; }
+      button { all: unset; background: red !important; color: yellow !important; border: 5px dotted black !important; padding: 30px !important; font: 40px "Comic Sans MS", cursive !important; cursor: crosshair !important; }
+      div, iframe { border: 3px solid hotpink !important; }
+      input { background: lime !important; }
+    </style>
+  </head>
+  <body>
+    <h1>Acme Bakery (a pretend external website)</h1>
+    <p>
+      This page is not part of the Next.js app. If everything works, you will
+      see a round chat button in the bottom-right corner that is NOT red,
+      dotted, or pink.
+    </p>
+    <p>Scroll down to check that the button stays in place.</p>
+    <div style="height: 1400px">Lots of pretend content here.</div>
+    <p>The end of the page.</p>
+
+    <!-- REPLACE the next line with the embed code copied from your form's
+         "Share and embed" panel (it must start with http://localhost:3000). -->
+    <script src="http://localhost:3000/widget.js" data-form="PASTE_YOUR_SLUG_HERE" defer></script>
+  </body>
+</html>
