@@ -4,8 +4,6 @@ A full-stack web application where users build forms, publish them, and collect
 responses through a chatbot-style widget. Forms can be shared by link or embedded
 on any external website with a single script tag.
 
-Built as a Tynoc Tech internship project.
-
 ## Features
 
 - Landing page with a live chatbot demo
